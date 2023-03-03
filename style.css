@@ -4,6 +4,12 @@ h1 {
     text-align: center;
 }
 
-.center {
+.trailer {
+    text-align: center;
+}
+
+.download {
+    width: 100%;
+    height: 100%;
     text-align: center;
 }
