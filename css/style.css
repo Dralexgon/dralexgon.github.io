@@ -24,17 +24,6 @@ html, body {
     src: url("../assets/OatMeal.ttf");
 }
 
-h3 {
-    font-family: "OatMeal";
-    color: #a63c55;/*#b640f1;*/
-    text-shadow:5px 5px 5px #000000;
-    font-size: 10em;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-}
-
-
 h1 {
     font-family: "OatMeal";
     color: #a63c55;
@@ -47,8 +36,27 @@ h1 {
 
 h2 {
     font-family: "OatMeal";
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
+}
+
+h3 {
+    font-family: "OatMeal";
+    color: #a63c55;/*#b640f1;*/
+    text-shadow:5px 5px 5px #000000;
+    font-size: 10em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+h4 {
+    font-family: "OatMeal";
+    color: #a63c55;
+    text-shadow:5px 5px 5px #000000;
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
 }
 
 .index {
