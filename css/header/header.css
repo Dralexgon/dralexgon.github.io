@@ -1,7 +1,7 @@
 /* Style the header with a grey background and some padding */
 .header {
   padding: 20px 10px;
-  background-image: url("../../assets/header.svg");
+  background-image: url("../../assets/Header.svg");
   background-size: 100% 1000%;
   background-position: center;
   overflow: hidden;
