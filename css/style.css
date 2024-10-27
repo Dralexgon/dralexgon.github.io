@@ -1,0 +1,56 @@
+.parchemin {
+    background-image: url('../image/parchemin.jpg'); /* Remplace par l'URL de ton image de texture */
+    background-size: cover; /* Adapte l'image au div */
+    padding: 20px; /* Marge intérieure pour que le texte ne soit pas collé aux bords */
+    border: 2px solid #b08d57; /* Couleur de bordure pour simuler des bordures anciennes */
+    border-radius: 15px; /* Coins arrondis pour un effet parchemin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombre pour l'effet de profondeur */
+    font-family: 'Georgia', serif; /* Style de police pour un look vintage */
+    color: #3a2c1b; /* Couleur du texte pour un effet vieilli */
+    /*max-width: 1000px; Taille max du parchemin, ajustable */
+    /*margin: 20px auto; Centrer sur la page */
+    margin: 1% 4%;
+}
+
+#markdown-input {
+    display: none;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none; /* Supprime les puces */
+    padding: 0;
+    justify-content: center; /* Centre la liste */
+}
+
+body {
+    background-image: url('../image/map.jpg');
+    background-size: cover;
+    background-attachment: scroll; /* Pour permettre un léger défilement */
+    background-position: center;
+    /*margin: 3%;*/
+    background-attachment: fixed;
+}
+  
+section {
+    height: 200vh; /* Pour avoir du contenu à défiler */
+    background-image: url('../image/parchemin.jpg');
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    background-position: center;
+    /*margin: 5%;*/
+    /*padding: 5%;*/
+    animation: slow-scroll 30s linear infinite;
+}
+
+
+@keyframes slow-scroll {
+    0% {
+        background-position: center 0;
+    }
+    100% {
+        background-position: center 100%;
+    }
+}
