@@ -3,8 +3,20 @@ function myFunction() {
 }
 
 function addBr(text) {
-    //return text.replace(/^\n/, "").replace(/\n/g, "<br>");
-    return text.replace(/\n/g, "<br>");
+    console.log("---- text 1:");
+    console.log(text);
+    console.log("---- text 2:");
+    const text2 = text.replace(/\n/g, "<br>");
+    console.log(text2);
+    /*
+    console.log("---- text 3:");
+    const text3 =  text.replace(/\n[ ]*(<)/g, '$1');
+    console.log(text3);
+    console.log("---- text 4:");
+    const text4 = text.replace(/\n[ ]*(<)/g, '$1').replace(/\n/g, "<br>")
+    console.log(text4);
+    */
+    return text2;
 }
 
 function convertMarkdown() {
